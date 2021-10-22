@@ -19,6 +19,7 @@ public class AleatorioEmple {
 		if (file.length() > 0) {
 			pos = 0;
 			System.out.println(" ------------------------------------------");
+			System.out.println(" ------------------------------------------");
 			System.out.println(" - - - VISUALIZO POR CONSOLA - - - - ");
 			for (;;) {
 				file.seek(pos);
@@ -38,6 +39,7 @@ public class AleatorioEmple {
 
 			} 
 			file.close(); 
+			System.out.println(" ------------------------------------------");
 			System.out.println(" ------------------------------------------");
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
