@@ -68,4 +68,6 @@ public class AleatorioEmple {
 		file.close();
 	}// fin crear
 
+	
+	
 }// fin class
