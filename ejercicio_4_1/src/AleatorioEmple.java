@@ -41,6 +41,7 @@ public class AleatorioEmple {
 			file.close(); 
 			System.out.println(" ------------------------------------------");
 			System.out.println(" ------------------------------------------");
+			
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
 	}// fin verporconsola
@@ -51,7 +52,8 @@ public class AleatorioEmple {
 		String apellido[] = { "FERNANDEZ", "GIL", "LOPEZ", "RAMOS", "SEVILLA", "CASILLA", "REY" };
 		int dep[] = { 10, 20, 10, 10, 30, 30, 20 }; 
 		Double salario[] = { 1000.45, 2400.60, 3000.0, 1500.56, 2200.0, 1435.87, 2000.0 };
-
+		
+		System.out.println(" ------------------------------------------");
 		StringBuffer buffer = null;
 		int n = apellido.length;
 
